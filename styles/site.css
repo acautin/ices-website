@@ -1,0 +1,23 @@
+#main-world-image {
+    width: 95%;
+}
+
+#footer-image {
+    width: 100%;
+}
+
+ul.directive {
+    list-style-type:none;
+}
+
+form#language {
+    margin-right: 10px;
+}
+
+.container-xl p {
+    text-align: justify;
+}
+
+.container-xl.main {
+    padding: 30px;
+}
