@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="mapaSuiza.css">
+    <link rel="stylesheet" href="mapaSuiza.css">
 </head>
+
 <body>
-    <object id="svg-map" class="align" data="img/Schweizer_Karte_mit_Kantons.svg" type="image/svg+xml" width="800" height="700"></object>
-    <div id="tooltip"></div>
+    <object id="svg-map" class="align" data="img/Schweizer_Karte_mit_Kantons.svg" type="image/svg+xml" width="800"
+        height="700"></object>
+    <div id="tooltip">
+        <table class="lista" id="tooltip-universidades">
+            <tr>
+                <th>Universidad</th>
+                <th>Ciudad</th>
+                <th>Canton</th>
+                <th>Idioma</th>
+                <th>Web</th>
+            </tr>
+            <tr>
+                <td id="col-nombre-universidad">ETH</td>
+                <td id="col-ciudad">Zurich</td>
+                <td id="col-canton">Zurich</td>
+                <td id="col-idioma">Aleman</td>
+                <td id="col-url">wwww</td>
+            </tr>
+
+        </table>
+    </div>
     <script src="script.js"></script>
+
+</body>
+
 </html>

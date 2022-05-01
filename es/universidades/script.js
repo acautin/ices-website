@@ -15,9 +15,73 @@ window.addEventListener("load", function () {
 
         function showTooltip(evt) {
             const tooltip = document.getElementById('tooltip'); //element tooltip
-            const cantonIdentifier = evt.target.dataset.identifier; // 2 letter canton abreviation, ie zh for Zürich
-            tooltip.textContent = JSON.stringify(universidades[cantonIdentifier]);
+            // remover tooltip anterior
+            while (tooltip.firstChild){
+                tooltip.removeChild(tooltip.firstChild);
+            }
+            // se agregan tablas
+            const table = document.createElement('table');
+            table.classList.add('lista');
+            table.id = 'tooltip-universidades';
+            // se crea el header de la tabla
+            const trHeader = document.createElement('tr');
+            table.appendChild(trHeader);
 
+            const headerTitles = ['Universidad', 'Ciudad', 'Canton', 'Idioma', 'Url'];
+            headerTitles.forEach((headerTitle) => {
+                const th = document.createElement('th');
+                const nombreUniversidad = document.createTextNode(headerTitle);
+                th.appendChild(nombreUniversidad);
+                trHeader.appendChild(th);
+            });
+
+            // Add data of the universities of the canton
+            const cantonIdentifier = evt.target.dataset.identifier; // 2 letter canton abreviation, ie zh for Zürich
+            // tooltip.textContent = JSON.stringify(universidades[cantonIdentifier]);
+            const universidadesPorCanton = universidades[cantonIdentifier];
+            universidadesPorCanton.forEach((universidad) => {
+                const trUniversidad = document.createElement('tr');
+                table.appendChild(trUniversidad);
+
+                const tdNombre = document.createElement('td');
+                const nombreUniversidad = document.createTextNode(universidad.nombre);
+                tdNombre.appendChild(nombreUniversidad);
+                trUniversidad.appendChild(tdNombre);
+
+                const tdCiudad = document.createElement('td');
+                const nombreCiudad = document.createTextNode(universidad.ciudad);
+                tdCiudad.appendChild(nombreCiudad);
+                trUniversidad.appendChild(tdCiudad);
+
+                const tdCanton = document.createElement('td');
+                const nombreCanton = document.createTextNode(universidad.canton);
+                tdCanton.appendChild(nombreCanton);
+                trUniversidad.appendChild(tdCanton);
+
+                const tdIdioma = document.createElement('td');
+                const nombreIdioma = document.createTextNode(universidad.idioma);
+                tdIdioma.appendChild(nombreIdioma);
+                trUniversidad.appendChild(tdIdioma);
+
+                const tdUrl = document.createElement('td');
+                const nombreUrl = document.createTextNode(universidad.url);
+                tdUrl.appendChild(nombreUrl);
+                trUniversidad.appendChild(tdUrl);
+            });
+
+            // Add table to the tooltip div (Display on the page)
+            tooltip.appendChild(table);
+            //
+            /*
+            <tr>
+                <td id="col-nombre-universidad">ETH</td>
+                <td id="col-ciudad">Zurich</td>
+                <td id="col-canton">Zurich</td>
+                <td id="col-idioma">Aleman</td>
+                <td id="col-url">wwww</td>
+            </tr>
+            </table>
+            */
 
         }
 

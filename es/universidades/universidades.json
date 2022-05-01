@@ -1,198 +1,256 @@
 {
     "zh": [
         {
-            "Name": "Universidad Zürich",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad Zürich",
+            "ciudad": "Zürich",
+            "canton": "Zürich",
+            "idioma": "Aleman",
             "url": "https://www.uzh.ch/de.html"
         },
         {
-            "Name": "Eidgenössische Technische Hochschule Zürich ETHZ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Eidgenössische Technische Hochschule Zürich ETHZ",
+            "ciudad": "Zürich",
+            "canton": "Zürich",
+            "idioma": "Aleman",
             "url": "http://www.ethz.ch/"
         },
         {
-            "Name": "HWZ Hochschule für Wirtschaft Zürich",
-            "Idioma del canton": "Aleman",
+            "nombre": "HWZ Hochschule für Wirtschaft Zürich",
+            "ciudad": "Zürich",
+            "canton": "Zürich",
+            "idioma": "Aleman",
             "url": "https://fh-hwz.ch"
         }
     ],
     "vd": [
         {
-            "Name": "Ecole polytechnique fédérale de Lausanne EPFL",
-            "Idioma del canton": "Frances",
+            "nombre": "Ecole polytechnique fédérale de Lausanne EPFL",
+            "ciudad": "Lausanne",
+            "canton": "Vaud",
+            "idioma": "Frances",
             "url": "https://www.epfl.ch/de/"
-        },
-        {
-            "Name": "Graduate Institute of International and Development Studies, Gèneve, IHEID",
-            "Idioma del canton": "Frances",
-            "url": "http://graduateinstitute.ch/"
         }
     ],
     "ne": [
         {
-            "Name": "Université de Neuchâtel",
-            "Idioma del canton": "Aleman",
+            "nombre": "Université de Neuchâtel",
+            "ciudad": "Neuchâtel",
+            "canton": "Neuchâtel",
+            "idioma": "Frances",
             "url": "http://www.unine.ch/"
         }
     ],
     "ju": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": ".",
+            "canton": "..",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "vs": [
         {
-            "Name": "Stiftung Universitäre Fernstudien Schweiz, Brig / Fondation Formation universitaire à distance, Suisse à Brigue",
-            "Idioma del canton": "Aleman",
+            "nombre": "Stiftung Universitäre Fernstudien Schweiz, Brig / Fondation Formation universitaire à distance, Suisse à Brigue",
+            "ciudad": "Brig",
+            "canton": "Valais",
+            "idioma": "Frances",
             "url": "http://www.fernuni.ch/"
         }
     ],
     "ti": [
         {
-            "Name": "Università della Svizzera italiana",
-            "Idioma del canton": "Italiano",
+            "nombre": "Università della Svizzera italiana",
+            "ciudad": "Lugano",
+            "canton": "Ticino",
+            "idioma": "Italiano",
             "url": "http://www.unisi.ch/"
         }
     ],
     "tg": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "ag": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "gr": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "sg": [
         {
-            "Name": "Universität St. Gallen",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universität St. Gallen",
+            "ciudad": "San Gallen",
+            "canton": "San Gallen",
+            "idioma": "Aleman",
             "url": "http://www.unisg.ch/"
         }
     ],
     "ge": [
         {
-            "Name": "Université de Genève",
-            "Idioma del canton": "Frances",
+            "nombre": "Université de Genève",
+            "idioma": "Frances",
+            "ciudad": "Ginebra",
+            "canton": "Ginebra",
             "url": "http://www.unige.ch/"
+        },
+        {
+            "nombre": "Graduate Institute of International and Development Studies, Gèneve, IHEID",
+            "idioma": "Frances",
+            "ciudad": "Ginebra",
+            "canton": "Ginebra",
+            "url": "http://graduateinstitute.ch/"
         }
     ],
     "ai": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "ar": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "sh": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "bl": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "bs": [
         {
-            "Name": "Universität Basel",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universität Basel",
+            "ciudad": "Basel",
+            "canton": "Ciudad Basel",
+            "idioma": "Aleman",
             "url": "http://www.unibas.ch/"
         }
     ],
     "so": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "fr": [
         {
-            "Name": "Université de Fribourg",
-            "Idioma del canton": "Frances",
+            "nombre": "Université de Fribourg",
+            "ciudad": "Fribourg",
+            "canton": "Fribourg",
+            "idioma": "Frances",
             "url": "http://www.unifr.ch/"
         }
     ],
     "zg": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "Zug",
+            "canton": "Zug",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "gl": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "ow": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "nw": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "sz": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "ur": [
         {
-            "Name": "Universidad ",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universidad ",
+            "ciudad": "",
+            "canton": "",
+            "idioma": "Aleman",
             "url": "www"
         }
     ],
     "lu": [
         {
-            "Name": "Universität Luzern",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universität Luzern",
+            "ciudad": "Lucerna",
+            "canton": "Lucerna",
+            "idioma": "Aleman",
             "url": "http://www.unilu.ch/"
         }
     ],
     "be": [
         {
-            "Name": "Universität Bern",
-            "Idioma del canton": "Aleman",
+            "nombre": "Universität Bern",
+            "ciudad": "Berna",
+            "canton": "Berna",
+            "idioma": "Aleman",
             "url": "http://www.unibe.ch/"
         }
     ]
